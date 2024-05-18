@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2, h1{
+    font-style: italic;
+    color: black;
+    margin: 0;
+}
+.specialimage{
+    width:80%;
+    height: auto;
+    margin: auto;   
+}
+
+a {
+    color: black;
+}    
+.bold{
+    font-weight: 1000;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px gray;
+    text-align: center;
+}
+.red{
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.center{
+    text-align: center;
+}
